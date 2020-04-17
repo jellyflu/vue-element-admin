@@ -1,5 +1,5 @@
 <template>
-   <div class="wscn-http404-container">
+  <div class="wscn-http404-container">
     <div class="wscn-http404">
       <div class="pic-404">
         <img class="pic-404__parent" src="@/assets/404_images/404.png" alt="404">
@@ -17,12 +17,9 @@
         <a href="" class="bullshit__return-home">Back to home</a>
       </div>
     </div>
-  </div>
 
-  <!--测试element的使用语言 -->
-<!-- <div>
-   <div class="block">
-     <span class="demonstration">显示总数</span>
+
+    <!--测试element的使用语言 -->
      <el-pagination
        @size-change="handleSizeChange"
        @current-change="handleCurrentChange"
@@ -31,32 +28,11 @@
        layout="total, prev, pager, next"
        :total="1000">
      </el-pagination>
-   </div>
-   <div class="block">
-     <span class="demonstration">调整每页显示条数</span>
-     <el-pagination
-       @size-change="handleSizeChange"
-       @current-change="handleCurrentChange"
-       :current-page.sync="currentPage2"
-       :page-sizes="[100, 200, 300, 400]"
-       :page-size="100"
-       layout="sizes, prev, pager, next"
-       :total="1000">
-     </el-pagination>
-   </div>
-   <div class="block">
-     <span class="demonstration">直接前往</span>
-     <el-pagination
-       @size-change="handleSizeChange"
-       @current-change="handleCurrentChange"
-       :current-page.sync="currentPage3"
-       :page-size="100"
-       layout="prev, pager, next, jumper"
-       :total="1000">
-     </el-pagination>
-   </div>
- </div>
-  -->
+
+  </div>
+
+
+
 </template>
 
 <script>
