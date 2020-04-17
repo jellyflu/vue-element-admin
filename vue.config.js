@@ -2,6 +2,7 @@
 const path = require('path')
 const defaultSettings = require('./src/settings.js')
 
+
 function resolve(dir) {
   return path.join(__dirname, dir)
 }
@@ -31,7 +32,7 @@ module.exports = {
   productionSourceMap: false,
   devServer: {
     port: port,
-    open: true,
+    open: false,//运行后是否自动打开浏览器，默认为true
     overlay: {
       warnings: false,
       errors: true
@@ -48,6 +49,8 @@ module.exports = {
       }
     }
   },
+
+
   chainWebpack(config) {
     config.plugins.delete('preload') // TODO: need test
     config.plugins.delete('prefetch') // TODO: need test
