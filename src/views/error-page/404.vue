@@ -1,5 +1,5 @@
 <template>
- <!-- <div class="wscn-http404-container">
+   <div class="wscn-http404-container">
     <div class="wscn-http404">
       <div class="pic-404">
         <img class="pic-404__parent" src="@/assets/404_images/404.png" alt="404">
@@ -17,10 +17,10 @@
         <a href="" class="bullshit__return-home">Back to home</a>
       </div>
     </div>
-  </div>-->
+  </div>
 
- <div>
-
+  <!--测试element的使用语言 -->
+<!-- <div>
    <div class="block">
      <span class="demonstration">显示总数</span>
      <el-pagination
@@ -54,9 +54,9 @@
        layout="prev, pager, next, jumper"
        :total="1000">
      </el-pagination>
-
    </div>
  </div>
+  -->
 </template>
 
 <script>
